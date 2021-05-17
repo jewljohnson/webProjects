@@ -1,0 +1,68 @@
+body{
+			margin: 0px;
+			font-family: 'Roboto', sans-serif;
+}
+
+header{
+	position: relative;
+	overflow: hidden;
+	height: 300px;
+
+}
+
+
+h1, h2, h3{
+	font-family: 'Roboto Slab', serif;
+}
+
+footer{
+	background-color: #11122B;
+	height:auto;
+	display:grid;
+	justify-content: center;
+	margin-top:-4px;
+
+}
+
+footer > .avatar-wrapper > img{
+	height:250px;
+	width: 250px;
+	border-radius: 125px;
+	margin-top: 15px;
+}
+
+footer > .phone-hours-wrapper{
+    color:white;
+    display:grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-gap:50px;
+    padding: 10px 0px 40px 0px;
+}
+
+.copyright-wrapper{
+    padding:15px;
+    font-size: .7em;
+    text-align: center;
+    color:white;
+}
+
+.social-media-wrapper{
+    display: flex; 
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.5em;
+    padding-top: 70px;
+}
+
+.sm-icon{
+	color:white;
+}
+
+.links-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+

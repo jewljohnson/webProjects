@@ -1,0 +1,27 @@
+.hero-section {
+    padding: 100px;
+    height: 300px;
+    background-image: url(../../images/slides_06.jpg);
+    background-attachment: fixed;
+    background-position-x: -500px;
+    background-position-y: 0px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > .top-heading {
+    padding: 1px 20px;
+    background-color: #11122B;
+    color: #cbcbcb;
+    width: 290px;
+    border-radius: 2px;
+    }
+    
+    .hero-section > .bottom-heading {
+    background-color: #CEA135;
+    color: #11122B;
+    width: 180px;
+    padding: 1px 20px;
+    margin-top: 20px;
+    }
