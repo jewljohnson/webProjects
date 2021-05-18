@@ -1,0 +1,42 @@
+body{
+	width:100%
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+	height:100%;
+	width:100%;
+}
+
+.leftPanelContainer{
+	
+
+}
+
+.leftPanel{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.rightPanelContainer{
+	background-image: url('../images/login-bg-img.png');
+	background-repeat: no-repeat;
+
+}
+
+.rightPanel{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.rightPanel > p{
+	width:70%;
+}
+.logo{
+	width: 118px;
+	height: 137px;
+}
