@@ -1,36 +1,51 @@
 body{
-	width:100%
+	width:100%;
+	margin:0px;
 }
 
 .main{
 	display: flex;
 	flex-direction: row;
+	justify-content:space-between;
 	height:100%;
-	width:100%;
 }
 
 .leftPanelContainer{
-	
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	width:50%;
 
 }
 
 .leftPanel{
+	width:50%;
+
+}
+
+.formContainer{
+	display:flex;
+	flex-direction:column;
+}
+.formGroup{
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-
 }
 
 .rightPanelContainer{
 	background-image: url('../images/login-bg-img.png');
 	background-repeat: no-repeat;
+	background-position-y:center;
+	width: 49%;
 
 }
 
 .rightPanel{
 	display: flex;
 	flex-direction: column;
+	justify-content:flex-end;
 	align-items: center;
+	height:100%;
 }
 
 .rightPanel > p{
@@ -39,4 +54,8 @@ body{
 .logo{
 	width: 118px;
 	height: 137px;
+}
+
+.pic{
+	width:74%
 }
