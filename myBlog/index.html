@@ -1,89 +1,46 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-	</head>
-	<body>
-        <div style="display:flex;align-items:baseline;justify-content:space-between;">
-            <div class="logo">
-                Diggi Ditto
+    <head>
+
+    </head>
+    <body>
+        <header style="display: flex;justify-content: space-between;">
+            <div id="logoContainer" style="display: flex;">
+                <a href="index.html">
+                    <img src="images/dittoLogo.png" height="95px">
+                </a>
+                <div style="align-self: center;">Diggi Ditto's Tools</div>
             </div>
             
-            <div class="button_group">
-                Image1
-                Image2
-                Image3
+            <div id="nav" style="width:500px ;display:flex; justify-content: space-between; padding-top:35px;padding-right:45px;">
+                <a href="">About</a>
+                <a href="">Skills</a>
+                <a href="">Projects</a>
+                <a href="">Recommendations</a>
             </div>
-            
-            <div class="add_button">
-                Add Button
+        </header>
+        <div id="mainContent" style="display: flex; justify-content: space-between;">
+            <div id="mainLeftColumn" style="width:75%;">
+                <p>
+                    The purpose of this site is to document the tools I currently use in development and the processes involved for maintaining and updating said tools.
+                    This will serve as a reference to tools when I have not programmed in a while. There will be a seperate page for every tool. Each page will describe the tool
+                    and document the necessary steps to use the development tool properly.
+                </p>
+                <p>
+                    The current workstation I am using is Acer Chromebook. I use Visual studios as my Integrated Development Enviroment and Git as my version control.
+                    Github hosts my git repository. There is seperate page for a glossary in case I ever forget certain terms.
+                </p>
+            </div>
+            <div id="mainRightColumn" style=" padding-right: 45px; min-width: 125px; display:flex; text-align: left; flex-direction: column;">
+                <div style=><a href="">Visual Studio Code</a></div>
+                <div><a href="">Java</a></div>
+                <div><a href="">Git</a></div>
+    
             </div>
         </div>
-	<div style="display:flex;">
-           <div>
-		   <table>
-			   <tr>
-			   	<th>Glossary Term</th>
-				<th>Definition</th>
-			</tr>
-			<tr>
-				<td><p>Angular JS</p></td>
-				<td><p>An open-source JavaScript framework for dynamic web applications</p></td>
-            </tr>
-	    	<tr>
-                <td><p>Application Programming Interface(API)</p></td>
-                <td><p>Code that allows two software programs to communicate with each</p></td>
-            </tr>
-	    <tr> 
-		    <td><p>Build Automation</td>
-		    <td><p>Allow you to download dependencies, complie code, package binary code, run tests, and deploy to production</p><td>
-	    </tr>
-	    <tr>
-		    <td><p>Build Automation Servers</p></td>
-		    <td><p>Execute build-automation utiliites on a scheduled or triggered basis</p><td>
-	    </tr>
-	    	<p>Continous Integration/Continous Deployment(CI/CD) - A method for releasing code and integrating it into code that has already been developed in order to prevent the application from breaking throughout the app's lifecycle.</p>
-	    	<p>DjangoA - A framework for Python web development</p>
-	    	<p>Dynamic Content - Data that is created each time a request is sent to a server</p>
-	    	<p>Endpoint - The point at which an API connects with the software program</p>
-	    	<p>Frameworks - Provide a standard way to build an application. Frameworks dictat architecture and program flow.</p>
-	    	<p>IDE - "Integrated Development Environment" Helps create and manage code.</p>
-	    	<p>Inversion of Control - A predefined workflow where the developer is not in full control of how the application operates.</p>
-	    	<p>JavaScript Framework - An application framework written in JavaScript to create responsive sites</p>
-	    	<p>LESS - "Learner Style Sheets" add more style and functions to CSS.</p>
-	    	<p>less.js - A JavaScript tool that converts LESS styles to CSS.</p>
-	    	<p>Libraries - Reusable collections of code</p>
-	    	<p>Opinionated - Frameworks that have a lot of control are sometimes considered "opinionated"</p>
-	    	<p>Package Managers - Coordnate with file archivers to extract packages, verify check sums and digital certificates. Locate, download, and install updates of existing software from repository as well as manage dependencies. Common package managers include the following: Debian Package Management System(DPMS), Red Hat Package Manager for Linux, Chocolatery for Windows, Homebrew and MacPorts for MacOS.</p>
-	    	<p>Packages - Archive files that include app files, instructions for installation, and metadata.</p>
-	    	<p>React.js - A JavaScript framework developed by Facebook that helps build and drop elements onto a page</p>
-	    	<p>Responsive Design - Desing technique taht automatically resizes a display to adapt to a specific screen size</p>
-	    	<p>Route - Allows front-end client to plug into correct socket on the backend. They are the paths that network traffic takes from a virtual machine(VM) instance to other destinations.</p>
-	    	<p>SASS - "Syntactically Awesome Stylesheets" are an extension of CSS</p>
-	    	<p>Static Content - A display of data that has been previously stored on a server.</p>
-	    	<p>Version Control - Allows you to revert to earlier versions of code, resolves conflicts between the same files, and split and merge different code branches.
-	    </p>
-	   	 <p>Vue.js - A community-based JavaScript framework focused on UI. Includes UI components such as buttons and other visual elements, and is both a library and a framework</p>
-            </table>
-		</div>
-		<div style="height:350px; width:50%;border: 1px solid black;">
-		</div>
-	</div> 
-	</body>
-    
-    <style>
-        .logo{
-            border: 1px solid black;
-        }
-        
-        .button_group{
-            padding:25px;
-            border: 1px solid black;
-        }
-        
-        .add_button{
-            padding:15px;
-            border: 1px solid black;
-        }
-	</style>
+         
+    </body>
+    <footer>
 
+    </footer>
 </html>
