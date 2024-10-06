@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1 style="text-align: center;">Registration Form</h1>
+    <hr>
+    <h2>Please Provide Your Information</h2>
+    <form>
+        <label for="name">Name</label><br>
+        <input id="name" name="name" type="text"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="tnumber">Telephone Number</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required><br><br>
+
+        <label for="dob">DOB</label><br>
+        <input type="date" id="dob" name="dob">
+
+        <h4>Gender</h4>
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" name="gender" value="Male">
+        <label for="gender">Female</label>
+        <input type="radio" id="gender" name="gender" value="Female">
+        <label for="gender">Other</label>
+        <input type="radio" id="gender" name="gender" value="Other"><br><br>
+
+        <label for="household">House Size</label><br>
+        <input type="Number" id="household" name="household" min="1" size="1"><br><br>
+
+        <label for="income">Anual Income</label>
+        <select id="income" name="income">
+            <option value="bracket1">Less than $40k</option>
+            <option value="bracket2">$40 to $60k</option>
+            <option value="bracket3">$60 to $80k</option>
+            <option value="bracket4">$80k to $100k</option>
+            <option value="bracket5">More than $100k</option>
+        </select><br><br>
+
+        <label for="comment">Message:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="confirmpassword">Confirm Password</label><br>
+        <input type="password" id="confirmpassword" name="confirmpassword"><br><br>
+
+        <input type="checkbox"><strong>By signing up, you agree to the </strong><a href="#">Terms of Service</a><br><br>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>

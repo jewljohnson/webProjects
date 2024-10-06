@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Survey</title>
+</head>
+
+<body>
+    <h1>Employee Interest Survey Form</h1>
+
+    <form>
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" placeholder="Enter Your Name" required><br>
+
+        <label for="department">Department:</label>
+        <input id="department" name="department" type="text" placeholder="Enter Your Department" required><br>
+
+        <label for="aboutYou">Tell us about yourself:</label><br>
+        <textarea id="aboutYou" name="aboutYou"></textarea><br>
+
+        Do you exercise at home?
+        <input type="radio" id="exercise" name="exercise" value="yes">
+        <label for="exercise">Yes</label>
+
+        <input type="radio" id="exercise" name="exercise" value="no">
+        <label for="exercise">No</label><br>
+
+        <p>How do you like to read your favorite topics?</p>
+        <input type="checkbox" id="phoneapp" name="phoneapp" value="phone app">
+        <label for="phoneapp">Phone Apps</label>
+
+        <input type="checkbox" id="online" name="online" value="online">
+        <label for="online">Online</label>
+
+        <input type="checkbox" id="books" name="books" value="books">
+        <label for="books">Books</label>
+
+        <input type="checkbox" id="magazines" name="magazines" value="magazines">
+        <label for="magazines">Magazines</label><br>
+
+        What's your favorite movie genre?
+        <select>
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="romance">Romance</option>
+            <option value="horror">Horror</option>
+            <option value="thriller">Thriller</option>
+        </select><br>
+
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
+
+</html>
