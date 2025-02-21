@@ -1,0 +1,55 @@
+<html>
+  <head> </head>
+
+  <style>
+    ul {
+      width: 50%;
+      list-style-type: none;
+    }
+
+    li {
+      text-align: center;
+      border: 1px, solid, black;
+    }
+
+    .formula:focus {
+      height: 25px;
+      color: red;
+      background: blue;
+    }
+  </style>
+
+  <body>
+    <div class="formula_list">
+      <ul>
+        <li tabindex="1" class="formula" id="formula1">Formula 1</li>
+        <li tabindex="1" class="formula" id="formula2">Formula 2</li>
+        <li tabindex="1" class="formula" id="formula3">Formula 3</li>
+        <li tabindex="1" class="formula" id="formula4">Formula 4</li>
+        <li tabindex="1" class="formula" id="formula5">Formula 5</li>
+      </ul>
+    </div>
+
+    <button id="submit_button">Submit</button>
+  </body>
+
+  <script>
+    var now = new Date();
+    var dateTime = now.toLocaleString();
+
+    sessionStorage.setItem("startTime", JSON.stringify(dateTime));
+    const f1 = document.getElementById("formula1");
+    const f2 = document.getElementById("formula2");
+    const f3 = document.getElementById("formula3");
+    const f4 = document.getElementById("formula4");
+    const f5 = document.getElementById("formula5");
+    const button = document.getElementById("submit_button");
+
+    button.addEventListener("mousedown", onSubmit);
+
+    function onSubmit(e) {
+      const activeElement = document.activeElement;
+      window.open(activeElement.id + ".html", "_self");
+    }
+  </script>
+</html>
